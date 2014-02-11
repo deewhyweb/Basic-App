@@ -19,20 +19,18 @@ a new app to the app store.
 
 <link href="css/style.css" rel="stylesheet" />
 
-<h1>New Application</h1>
+<h1>Sync Test</h1>
 
-<p> Click on the button below to make a cloud "action" call which will return 
-  the latest configuration information from the shared config.js file</p>
 
-<button id='run_button'> Execute cloud action call </button>
-
-<p> Config from locally included config.js : </p>
-<div id="localConfig">
+<div id="syncResult">
 
 </div>
 
-<p> Config from cloud action call: </p>
-<div id="cloudConfig">
+<div id="syncEdit" >
+
+	<input name="synctext" id="synctext">
+	<input type="hidden" id="guid">
+	<button id="updateField">Update</button>	
 
 </div>
 
