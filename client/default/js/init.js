@@ -18,7 +18,6 @@ $fh.ready(function() {
         act:'getConfig'
       },
       function(res) {
-        alert(res);
         document.getElementById('cloudConfig').innerHTML = "<p>" + JSON.stringify(res.config) + "</p>";
       },
       function(code,errorprops,params) {

@@ -10,7 +10,7 @@ var util = require('util');
  */
 exports.getConfig = function(params, callback) {
   console.log("In getConfig() call");
-  console.log('test comment');
+  console.log('test comment xxx');
   var cfg = require("config.js");
   return callback(null, {config: cfg.config});
 };
